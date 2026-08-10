@@ -1,0 +1,18 @@
+[project]
+name = "coop_save_quit"
+version = "1.6"
+authors = [{ name = "web" }]
+description = """\
+Save quitting is how you farm, and it kicks everyone else out. This reloads the map without \
+ending the session, so chests, vendors and enemies come back and nobody gets dropped.
+"""
+
+[project.urls]
+Source = "https://github.com/tunnelweb/coop-save-quit"
+Readme = "https://github.com/tunnelweb/coop-save-quit/blob/main/CoopSaveQuit/Readme.md"
+
+[tool.sdkmod]
+name = "Co-op Save Quit"
+coop_support = "HostOnly"
+supported_games = ["BL2", "TPS", "AoDK"]
+download = "https://github.com/tunnelweb/coop-save-quit/releases/latest/download/CoopSaveQuit.sdkmod"
