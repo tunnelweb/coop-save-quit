@@ -1,6 +1,6 @@
 [project]
 name = "coop_save_quit"
-version = "1.6"
+version = "2.10.3"
 authors = [{ name = "web" }]
 description = """\
 Save quitting is how you farm, and it kicks everyone else out. This reloads the map without \
